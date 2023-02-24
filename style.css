@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Inter, sans-serif;
+}
+
 .container {
     margin: 50px;
 }
@@ -13,10 +17,14 @@
     justify-content: space-between;
 }
 
-.logo {
+.logo  {
     height: 25px;
     width: 35px;
 
+}
+.menu{
+    height: 25px;
+    width: 35px;
 }
 
 .navBar .navBar-items ul {
@@ -25,25 +33,78 @@
     gap: 1rem;
 }
 
-img{
+img {
     margin: 10px;
     height: 300px;
     width: 600px;
 }
-span{
 
+span {
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
 }
-.new{
-    height: 500px;
+
+hr {
+
+    width: 150px;
+    margin: auto;
+    color: white;
+}
+
+.new > p {
+    margin: 10px;
+}
+
+
+.titre {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.new {
+    margin: 10px;
+    padding: 20px;
+    height: 400px;
     width: 300px;
     background: black;
     text-align: center;
     color: white;
 }
-.one
-{
+
+.one {
     display: flex;
+margin-left: 250px;
 
 }
 
+.text {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 300px);
+}
+
+.text > div {
+    font-size: 10px;
+}
+
+.text p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+button {
+    display: flex;
+    background-color: #cc8030;
+    margin: 15px auto;
+    height: 35px;
+    width: 100px;
+    align-items: center;
+    padding: 15px;
+    border-style: none;
+
+}
 
